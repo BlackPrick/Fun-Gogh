@@ -10,6 +10,69 @@
 	src: url("") format("truetype");
 	font-style: normal;
 	font-weight: normal;
+<<<<<<< Updated upstream
+=======
+}*/ 
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --darker-main-color: #1F2937;
+}
+
+.up-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+/* Header part */
+
+#header {
+  background-color: var(--darker-main-color);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100vw;
+}
+
+#logo {
+  height: 25px;
+  margin-right: 5px;
+}
+
+
+
+#header div a {
+	text-decoration: none;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
+
+#header div a h1 {
+  color: #F9FAF8;
+  flex: 1;
+  font-size: 24px;
+  font-weight: 900; 
+  min-width: fit-content;
+}
+
+#header div ul {
+  display: flex;
+  flex: 3;
+  font-size: 18px;
+  justify-content: end;
+>>>>>>> Stashed changes
 }
 
 * {
