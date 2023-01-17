@@ -21,7 +21,7 @@
   background-position: right;
 }
 
-/* Second header */
+/* Hero */
 
 #hero {
   background-color: var(--darker-main-color);
@@ -54,6 +54,7 @@
 
 .hero-container div img {
   width: 100%;
+  min-width: 200px;
   box-shadow: 5px 5px 10px black;
 }
 
@@ -62,12 +63,17 @@
 #information div {
   flex-direction: column;
   margin-top: 50px;
+  text-align: center;
 }
 
 #information h3 {
   color: var(--darker-main-color);
   font-size: 36px;
   font-weight: bolder !important;
+}
+
+#information div ul {
+  flex-wrap: wrap;
 }
 
 #information ul li {
@@ -131,10 +137,106 @@
   color: white;
   display: flex;
   justify-content: space-evenly;
-  padding: 40px 0;
+  padding: 40px 20px;
   width: 50%;
 }
 
 #botton-btn {
   border: 2px solid white;
+}
+
+/* tablet portrait */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Information */
+
+  #information ul li {
+    padding: 1%;
+  }
+
+/* Blue Box */
+  
+  #blue-box-container {
+    padding: 40px 20px;
+    width: 80%;
+  }
+  
+  #botton-btn {
+    border: 2px solid white;
+  }
+}
+
+/* mobile portrait */
+
+@MEDIA screen and (max-device-width: 768px) {
+    /* Hero */
+
+  .hero-container {
+    display: block;
+    padding: 100px 0;
+  }
+
+  .hero-txt-area {
+    padding-right: 0;
+  }
+
+  .hero-container div {
+    flex: 0;
+  }
+
+  .hero-txt-area h2 {
+    font-size: 30px;
+  }
+
+  .hero-txt-area p {
+    font-size: 15px;
+    margin-top: 12px;
+  }
+
+  #information ul li {
+    flex: 0;
+  }
+
+  .hero-container div img {
+    display: none;
+  }
+
+  /* Information */
+
+  #information ul li {
+    padding: 1%;
+  }
+
+  #information ul li img {
+    height: 140px;
+    width: 140px;
+  }
+
+  /* Quote */
+
+  #quote {
+    padding: 100px 0;
+  }
+
+  #quote div div p span {
+    font-size: 22px;
+  }
+  
+  #quote div div p {
+    font-size: 30px;
+  }
+
+  /* Blue Box */
+
+  #blue-box-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+    width: 95%;
+    text-align: center;
+  }
+
+  #botton-btn {
+    border: 2px solid white;
+  }
 }
