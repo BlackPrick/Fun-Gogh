@@ -1,0 +1,140 @@
+:root {
+  --blue-btn-color: #3882F6;
+  --darker-main-color: #1F2937;
+}
+
+.sign-up-btn {
+  background-image: linear-gradient(45deg, #3882F6 60%, #5a7cb3, #566277);
+  background-position: left;
+  border-radius: 7px;
+  background-size: 500%;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 900;
+  margin-top: 15px;
+  padding: 6px 25px;
+  transition-duration: 2s;
+}
+
+.sign-up-btn:hover {
+  background-position: right;
+}
+
+/* Second header */
+
+#hero {
+  background-color: var(--darker-main-color);
+}
+
+.hero-container {
+  display: flex;
+  padding: 150px 0 100px 0;
+}
+
+.hero-container div {
+  flex: 1;
+}
+
+.hero-txt-area {
+  padding-right: 5%;
+}
+
+.hero-txt-area h2 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-txt-area p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.hero-container div img {
+  width: 100%;
+  box-shadow: 5px 5px 10px black;
+}
+
+/* Information */
+
+#information div {
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#information h3 {
+  color: var(--darker-main-color);
+  font-size: 36px;
+  font-weight: bolder !important;
+}
+
+#information ul li {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 3%;
+  text-align: center;
+  justify-content: start;
+}
+
+#information ul li img {
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+
+#information ul li p {
+  color: #1F2937;
+  margin-top: 10px;
+}
+
+/* Quote */
+
+#quote {
+  background-color: #e5e7eb;
+  margin-top: 100px;
+  padding: 150px 0;
+}
+
+#quote div div p span {
+  color: var(--darker-main-color);
+  display: flex;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  justify-content: end;
+}
+
+#quote div div p {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  width: 90%;
+}
+
+/* Blue Box */
+
+#blue-box {
+  margin-top: 100px;
+}
+
+#blue-box-container {
+  align-items: center;
+  background-color: var(--blue-btn-color);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0;
+  width: 50%;
+}
+
+#botton-btn {
+  border: 2px solid white;
+}
