@@ -72,10 +72,6 @@
   font-weight: bolder !important;
 }
 
-#information div ul {
-  flex-wrap: wrap;
-}
-
 #information ul li {
   align-items: center;
   display: flex;
@@ -191,6 +187,10 @@
   .hero-txt-area p {
     font-size: 15px;
     margin-top: 12px;
+  }
+
+  #information div ul {
+    flex-wrap: wrap;
   }
 
   #information ul li {
