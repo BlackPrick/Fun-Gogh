@@ -1,12 +1,17 @@
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 400px 25px;
+  justify-content: center;
+  gap: 2px;
 }
-.wrapper {
+.flex-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  border: 1px dashed #1f2937;
 }
 .buy-btn-small {
   width: 25px;
