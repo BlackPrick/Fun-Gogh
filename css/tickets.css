@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 400px 25px;
+  justify-content: center;
+  gap: 2px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  border: 1px dashed #1f2937;
+}
+.buy-btn-small {
+  width: 25px;
+  height: 25px;
+  border-radius: 30%;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
