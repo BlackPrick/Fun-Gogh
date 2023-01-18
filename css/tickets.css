@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  
+}
+.buy-btn-small {
+  width: 25px;
+  height: 25px;
+  border-radius: 30%;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 10px;
+}
