@@ -5,8 +5,8 @@
 }
 .wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  
 }
 .buy-btn-small {
   width: 25px;
