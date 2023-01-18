@@ -41,7 +41,8 @@ html {
   display: flex;
   justify-content: center;
   padding: 10px 0;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100vw;
 }
 
@@ -57,7 +58,7 @@ html {
   display: flex;
 }
 
-#header div a h1 {
+#header div a strong {
   color: #F9FAF8;
   flex: 1;
   font-size: 24px;
@@ -112,7 +113,7 @@ footer {
     height: 20px;
   }
 
-  #header div a h1 {
+  #header div a strong {
     font-size: 18px;
   }
 
