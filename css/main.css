@@ -1,18 +1,11 @@
 * {
   box-sizing: border-box;
-  /*font-family: "Blogger-Light";*/
 	font-family: 'Roboto', sans-serif;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/*@font-face {
-	font-family: "Blogger-Light";
-	src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}*/
 
 html {
   scroll-behavior: smooth;
@@ -20,6 +13,9 @@ html {
 
 :root {
   --darker-main-color: #1F2937;
+}
+#top {
+  visibility: hidden;
 }
 
 .up-container {
@@ -44,6 +40,7 @@ html {
   position: sticky;
   top: 0;
   width: 100vw;
+  z-index: 2;
 }
 
 #logo {

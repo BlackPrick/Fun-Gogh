@@ -123,8 +123,10 @@
         width: 35px;
         height: 35px;
         stroke: grey;
+        fill:grey;
     }
     #to-top-btn:hover svg {
+        stroke: var(--darker-main-color);
         stroke: var(--darker-main-color);
     }
 }
