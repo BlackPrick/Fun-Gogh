@@ -1,12 +1,11 @@
-
 @media screen and (min-width: 841px) {
     .p-container {
-        width: 90%;
+        width: 80%;
         height: 100%;
         margin: 0 auto;
     }
 
-    section {
+    .contents {
         background-color: #1F2937;
         color: white;
         padding: 30px 0;
@@ -106,6 +105,27 @@
     figcaption a:hover {
         color: rgb(33, 148, 182);
     }
+
+    /* ---------To the top---------- */
+    #to-top-btn {
+        position: fixed;
+        bottom: 5%;
+        left:3%;
+        opacity: 0.5;
+    }
+    #to-top-btn:hover {
+        opacity: 1;
+    }
+    #to-top-btn svg {
+        width: 35px;
+        height: 35px;
+        stroke: grey;
+        fill:grey;
+    }
+    #to-top-btn:hover svg {
+        stroke: var(--darker-main-color);
+        stroke: var(--darker-main-color);
+    }
 }
 @media screen and (max-width: 840px) {
     .p-container {
@@ -114,7 +134,7 @@
         margin: 0 auto;
     }
 
-    section {
+    .contents {
         background-color: #1F2937;
         color: white;
         padding: 30px 0;
@@ -203,5 +223,24 @@
 
     figcaption a:hover {
         color: rgb(33, 148, 182);
+    }
+
+    /* ---------To the top---------- */
+    #to-top-btn {
+        position: fixed;
+        bottom: 5%;
+        left:3%;
+        opacity: 0.5;
+    }
+    #to-top-btn:hover {
+        opacity: 1;
+    }
+    #to-top-btn svg {
+        width: 40px;
+        height: 40px;
+        stroke: grey;
+    }
+    #to-top-btn:hover svg {
+        stroke: var(--darker-main-color);
     }
 }
