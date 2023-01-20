@@ -1,10 +1,4 @@
 @media screen and (min-width: 841px) {
-    .t-container {
-        width: 80%;
-        height: 100%;
-        margin: 0 auto;
-    }
-
     section {
         padding: 20px 0;
         color: var(--darker-main-color);
@@ -99,12 +93,6 @@
 
 
 @media screen and (max-width: 840px) {
-    .t-container {
-        width: 96%;
-        height: 100%;
-        margin: 0 auto;
-    }
-
     section {
         padding: 20px 0;
         color: var(--darker-main-color);
