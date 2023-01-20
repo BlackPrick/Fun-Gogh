@@ -21,6 +21,10 @@
   background-position: right;
 }
 
+.second-size {
+  width: 70%;
+}
+
 /* Hero */
 
 #hero {

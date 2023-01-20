@@ -1,11 +1,10 @@
 * {
   box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -13,21 +12,6 @@ html {
 
 :root {
   --darker-main-color: #1F2937;
-}
-#top {
-  visibility: hidden;
-}
-
-.up-container {
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 70%;
 }
 
 /* Header part */
@@ -43,36 +27,17 @@ html {
   z-index: 2;
 }
 
-#logo {
-  height: 25px;
-  margin-right: 5px;
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #header div a {
-	text-decoration: none;
+  text-decoration: none;
   align-items: center;
   cursor: pointer;
   display: flex;
-}
-
-#header div a strong {
-  color: #F9FAF8;
-  flex: 1;
-  font-size: 24px;
-  font-weight: 900; 
-  min-width: fit-content;
-}
-
-#header div ul {
-  display: flex;
-  flex: 3;
-  font-size: 18px;
-  justify-content: end;
-}
-
-#header div ul li {
-  cursor: pointer;
-  margin-left: 25px;
 }
 
 #header div ul li a {
@@ -91,34 +56,94 @@ footer {
   margin-top: 100px;
 }
 
-/* tablet portrait */
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .container {
-    width: 90%;
-  }
+  /* ---------To the top---------- */
+#to-top-btn {
+  position: fixed;
+  bottom: 5%;
+  left:3%;
+  opacity: 0.5;
+}
+#to-top-btn:hover {
+  opacity: 1;
+}
+#to-top-btn svg {
+  width: 35px;
+  height: 35px;
+  stroke: grey;
+  fill:grey;
+}
+#to-top-btn:hover svg {
+  stroke: var(--darker-main-color);
+  stroke: var(--darker-main-color);
 }
 
-/* mobile portrait */
+/* desktop version */
 
-@MEDIA screen and (max-device-width: 768px) {
+@media screen and (min-width: 841px) {
   .container {
-    width: 95%;
+    width: 70%;
+    margin: 0 auto;
   }
 
+    /* Header part */
+
+  #logo {
+    height: 25px;
+    margin-right: 5px;
+  }
+  
+  #header div a strong {
+    color: #F9FAF8;
+    flex: 1;
+    font-size: 24px;
+    font-weight: 900; 
+    min-width: fit-content;
+  }
+  
+  #header div ul {
+    display: flex;
+    flex: 3;
+    font-size: 18px;
+    justify-content: end;
+  }
+  
+  #header div ul li {
+    cursor: pointer;
+    margin-left: 25px;
+  }
+}
+/* mobile portrait */
+
+@media screen and (max-width: 840px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  /* Header part */
+  
   #logo {
     height: 20px;
+    margin-right: 5px;
   }
 
   #header div a strong {
+    color: #F9FAF8;
+    flex: 1;
     font-size: 18px;
+    font-weight: 900; 
+    min-width: fit-content;
   }
-
+  
   #header div ul {
+    display: flex;
+    flex: 3;
     font-size: 14px;
+    justify-content: end;
   }
-
+  
   #header div ul li {
+    cursor: pointer;
     margin-left: 12px;
   }
 }
