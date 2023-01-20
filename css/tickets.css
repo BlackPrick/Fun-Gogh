@@ -1,29 +1,193 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: 400px 25px;
-  justify-content: center;
-  gap: 2px;
-}
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media screen and (min-width: 841px) {
+    .t-container {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 20px 0;
+        color: var(--darker-main-color);
+    }
+
+    /* Head */
+    h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    .t-img-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        height: 15vw;
+        border-radius: 1vw;
+    }
+
+    .t-img-wrap img {
+        position: absolute;
+        top: -19vw;
+        width: 100%;
+    }
+
+    /* Tickets body */
+    table {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    tr {
+        display: grid;
+        grid-template-columns: 2fr 3fr 1fr;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-bottom:1px dotted grey;
+    }
+
+    th {
+        text-align: start;
+    }
+
+    td {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    td:last-child {
+        align-items: center;
+    }
+
+    td b {
+        font-size: 18px;
+    }
+
+    td em {
+        color: grey;
+        font-size: 15px;
+    }
+    td button {
+        padding: 10px 0;
+        width: 80%;
+        border: 2px solid rgb(56, 130, 246);
+        background-color: white;
+        border-radius: 0.5vw;
+        font-size: 15px;
+    }
+    td button:hover {
+        background-color: rgba(56, 130, 246, 0.3);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
 }
 
-.item {
-  border: 1px dashed #1f2937;
-}
-.buy-btn-small {
-  width: 25px;
-  height: 25px;
-  border-radius: 30%;
-  background-color: #1f2937;
-  color: #e5e7eb;
-  text-align: center;
-  font-size: 10px;
-}
 
-a {
-  text-decoration: none;
-  color: white;
+
+
+
+@media screen and (max-width: 840px) {
+    .t-container {
+        width: 96%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 20px 0;
+        color: var(--darker-main-color);
+    }
+
+    /* Head */
+    h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    .t-img-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        height: 30vw;
+        border-radius: 2vw;
+    }
+
+    .t-img-wrap img {
+        position: absolute;
+        top: -16vw;
+        width: 100%;
+    }
+
+    /* Tickets body */
+    table {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-bottom:1px dotted grey;
+    }
+
+    th {
+        text-align: start;
+    }
+
+    td {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    td b {
+        font-size: 18px;
+    }
+
+    td em {
+        color: grey;
+        font-size: 15px;
+    }
+    td button {
+        padding: 10px 0;
+        width: 50%;
+        border: 2px solid rgb(56, 130, 246);
+        background-color: white;
+        border-radius: 2vw;
+        font-size: 15px;
+    }
+    td button:hover {
+        background-color: rgba(56, 130, 246, 0.3);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
 }
