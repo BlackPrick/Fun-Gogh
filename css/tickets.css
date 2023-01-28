@@ -1,7 +1,7 @@
 @media screen and (min-width: 841px) {
     section {
-        padding: 20px 0;
         color: var(--darker-main-color);
+        padding: 20px 0;
     }
 
     /* Head */
@@ -17,13 +17,13 @@
     }
 
     .t-img-wrap {
+        border-radius: 1vw;
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        position: relative;
-        overflow: hidden;
         height: 15vw;
-        border-radius: 1vw;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
     }
 
     .t-img-wrap img {
@@ -42,11 +42,11 @@
     }
 
     tr {
+        border-bottom:1px dotted grey;
         display: grid;
         grid-template-columns: 2fr 3fr 1fr;
-        padding: 10px;
         margin-bottom: 20px;
-        border-bottom:1px dotted grey;
+        padding: 10px;
     }
 
     th {
@@ -73,29 +73,25 @@
         font-size: 15px;
     }
     td button {
-        padding: 10px 0;
-        width: 80%;
-        border: 2px solid rgb(56, 130, 246);
         background-color: white;
+        border: 2px solid rgb(56, 130, 246);
         border-radius: 0.5vw;
         font-size: 15px;
+        padding: 10px 0;
+        width: 80%;
     }
     td button:hover {
         background-color: rgba(56, 130, 246, 0.3);
-        transition: 0.5s;
         cursor: pointer;
+        transition: 0.5s;
     }
-
 }
-
-
-
 
 
 @media screen and (max-width: 840px) {
     section {
-        padding: 20px 0;
         color: var(--darker-main-color);
+        padding: 20px 0;
     }
 
     /* Head */
@@ -111,13 +107,13 @@
     }
 
     .t-img-wrap {
+        border-radius: 2vw;
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        position: relative;
-        overflow: hidden;
         height: 30vw;
-        border-radius: 2vw;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
     }
 
     .t-img-wrap img {
@@ -136,12 +132,12 @@
     }
 
     tr {
+        border-bottom:1px dotted grey;
         display: flex;
         flex-direction: column;
-        row-gap: 20px;
-        padding: 10px;
         margin-bottom: 20px;
-        border-bottom:1px dotted grey;
+        padding: 10px;
+        row-gap: 20px;
     }
 
     th {
@@ -149,10 +145,10 @@
     }
 
     td {
+        align-items: center;
         display: inline-flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         row-gap: 10px;
     }
 
@@ -165,17 +161,16 @@
         font-size: 15px;
     }
     td button {
-        padding: 10px 0;
-        width: 50%;
-        border: 2px solid rgb(56, 130, 246);
         background-color: white;
+        border: 2px solid rgb(56, 130, 246);
         border-radius: 2vw;
         font-size: 15px;
+        padding: 10px 0;
+        width: 50%;
     }
     td button:hover {
         background-color: rgba(56, 130, 246, 0.3);
-        transition: 0.5s;
         cursor: pointer;
+        transition: 0.5s;
     }
-
 }

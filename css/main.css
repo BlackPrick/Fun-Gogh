@@ -23,57 +23,59 @@ html {
   padding: 10px 0;
   position: sticky;
   top: 0;
-  width: 100vw;
   z-index: 2;
 }
 
 .center-flex {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 
 #header div a {
-  text-decoration: none;
   align-items: center;
   cursor: pointer;
   display: flex;
+  text-decoration: none;
 }
 
 #header div ul li a {
-  text-decoration: none;
   color: #E5E7EB;
+  text-decoration: none;
 }
 
 /* Footer part */
 
 footer {
+  color: #E5E7EB;
+  background-color: var(--darker-main-color);
   display: flex;
   justify-content: center;
-  background-color: var(--darker-main-color);
-  color: #E5E7EB;
-  padding: 25px 0;
   margin-top: 100px;
+  padding: 25px 0;
 }
 
   /* ---------To the top---------- */
+
 #to-top-btn {
-  position: fixed;
   bottom: 5%;
   left:3%;
   opacity: 0.5;
+  position: fixed;
 }
+
 #to-top-btn:hover {
   opacity: 1;
 }
+
 #to-top-btn svg {
-  width: 35px;
+  fill:grey;
   height: 35px;
   stroke: grey;
-  fill:grey;
+  width: 35px;
 }
+
 #to-top-btn:hover svg {
-  stroke: var(--darker-main-color);
   stroke: var(--darker-main-color);
 }
 
@@ -81,9 +83,9 @@ footer {
 
 @media screen and (min-width: 841px) {
   .container {
-    width: 70%;
     height: 100%;
     margin: 0 auto;
+    width: 70%;
   }
 
     /* Header part */
@@ -106,11 +108,11 @@ footer {
     flex: 3;
     font-size: 18px;
     justify-content: end;
+    gap: 25px;
   }
   
   #header div ul li {
     cursor: pointer;
-    margin-left: 25px;
   }
 }
 
@@ -118,9 +120,9 @@ footer {
 
 @media screen and (max-width: 840px) {
   .container {
-    width: 95%;
     height: 100%;
     margin: 0 auto;
+    width: 95%;
   }
   
   /* Header part */
@@ -143,10 +145,10 @@ footer {
     flex: 3;
     font-size: 14px;
     justify-content: end;
+    gap: 12px;
   }
   
   #header div ul li {
     cursor: pointer;
-    margin-left: 12px;
   }
 }
