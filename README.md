@@ -1,3 +1,3 @@
 # Fun-Gogh
-Paintings exhibition website for group assignment for Brainnest Training Program.
+Paintings exhibition website for group assignment for the Brainnest Training Program.
 Link to the website: https://blackprick.github.io/Fun-Gogh/
