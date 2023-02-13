@@ -149,7 +149,7 @@ footer {
     flex: 3;
     font-size: 14px;
     justify-content: end;
-    gap: 12px;
+    gap: 8px;
   }
   
   #header div ul li {
